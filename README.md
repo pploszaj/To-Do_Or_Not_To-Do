@@ -27,15 +27,15 @@ The backend is built using Nest.js with TypeScript and the frontend is developed
 
 2. **Running the Application**:
 
-To get the Todo app up and running, simply execute:
+   To get the Todo app up and running, simply execute:
+   ```bash
+   docker-compose up
 
-    ``` docker-compose up ```
+Once the containers are running, you should be able to access the frontend at: **http://localhost:8080**
 
-Once the containers are running, you should be able to:
-    - Access the frontend at: http://localhost:8080
+3. **Stopping the Application**:
 
+   To stop the application and the running containers, you can simply press Ctrl+C in the terminal where docker-compose up is running. Alternatively, you can run:
 
-
-
-
-
+    ```bash
+    docker-compose down
